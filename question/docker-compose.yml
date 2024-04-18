@@ -1,0 +1,8 @@
+version: '2'
+services:
+  springbootapp:
+    image: himanshu/question:0.0.1
+    container_name: question
+    ports:
+      - 8080:8080
+
